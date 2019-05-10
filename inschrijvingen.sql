@@ -1,4 +1,4 @@
 USE lo8e_sql2;
 UPDATE studenten
-SET geboortedatum = "1998-11-10"
-WHERE ov_nummer = 91234
+SET actief = 0
+WHERE inschrijvings_datum > "2017-1-1"
