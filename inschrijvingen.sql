@@ -1,6 +1,5 @@
 USE lo8e_sql2;
-INSERT INTO studenten (ov_nummer, voornaam,tussenvoegsel,achternaam)
-VALUE (91234,"Ali","","Boo"),
-(92345,"black","van der","Bla"),
-(93456,"Hai","","Bay"),
-(93456,"boobie","","Boob");
+INSERT INTO klassen_studenten (ov_nummer,klas_code)
+VALUES (91234,"lo9e-amo1"),
+(92345,"lo9e-amo2"),
+(93456,"lo9e-amo3");
